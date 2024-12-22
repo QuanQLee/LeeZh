@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>联系方式 - 我的个人网站</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">My Logo</div>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">主页</a></li>
+          <li><a href="about.html">关于我</a></li>
+          <li><a href="portfolio.html">作品集</a></li>
+          <li><a href="contact.html" class="active">联系方式</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-banner">
+    <h1>联系方式</h1>
+  </section>
+
+  <section class="container contact-section">
+    <h2>联系我</h2>
+    <p>你可以通过以下表单或直接通过邮箱、社交媒体与我联系。</p>
+    <form action="mailto:your_email@example.com" method="post" enctype="text/plain">
+      <label for="name">姓名:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">邮箱:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">留言:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit" class="btn">发送</button>
+    </form>
+
+    <!-- 其他联系方式/社交媒体图标（可选） -->
+    <div class="social-links">
+      <p>或关注我的社交媒体：</p>
+      <a href="#" target="_blank">Weibo</a>
+      <a href="#" target="_blank">LinkedIn</a>
+      <a href="#" target="_blank">Github</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2024 [你的名字] | 保留所有权利</p>
+    </div>
+  </footer>
+</body>
+</html>
